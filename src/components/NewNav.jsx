@@ -11,6 +11,7 @@ export default function NewNav() {
         sx={{
           margin: 'auto',
           width: '100%',
+          height: '5vh',
           padding: '2%',
           backgroundColor: '#1f1f24',
           position: 'fixed',
