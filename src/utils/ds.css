@@ -1,0 +1,135 @@
+.step {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.step.active {
+  opacity: 1;
+}
+.container1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+.one {
+  margin-left: 13px;
+}
+.con {
+  display: flex;
+  flex-direction: column;
+}
+.contd {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 2px;
+}
+.subdy {
+  font-family: 'Neurial Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 38px;
+  /* identical to box height, or 136% */
+  margin: 0px;
+  color: #ffffff;
+}
+span {
+  font-family: 'Neurial Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 30px;
+  /* identical to box height, or 167% */
+
+  color: #b8b8b8;
+}
+.dot {
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  margin-top: 12px;
+  margin-left: 45px;
+  width: auto;
+}
+
+.stepper-app {
+  background: #1f1f24;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  margin-right: 68px;
+  margin-left: 68px;
+  padding-top: 113px;
+  display: flex;
+  flex-direction: row;
+}
+
+.stepper {
+  padding-left: 0px;
+  margin: 0px;
+}
+.cont {
+  max-width: 671px;
+  width: 100%;
+}
+.imagec {
+  width: 30%;
+}
+.imagec > img {
+  display: block;
+  margin: auto;
+}
+.imageback {
+  position: absolute;
+  width: auto;
+  height: 686.51px;
+  border-radius: 100%;
+
+  background: rgba(210, 255, 32, 0.19);
+  filter: blur(64.5px);
+  top: 83px;
+}
+img {
+  width: 70%;
+  height: auto;
+  position: relative;
+  z-index: 10;
+  padding-bottom: 100px;
+}
+.head {
+  font-family: 'Neurial Grotesk';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 70px;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+
+.headp {
+  font-family: 'Neurial Grotesk';
+  max-width: 516.94px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 0;
+  margin-bottom: 40px;
+
+  color: #b8b8b8;
+}
+
+.css-14yr603-MuiStepContent-root {
+  border-left-style: none !important;
+}
